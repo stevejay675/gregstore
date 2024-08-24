@@ -27,6 +27,7 @@ nav{
     right: 0;
     width: 100%;
     z-index: 5;
+    box-sizing: border-box;
 }
 
  nav .logo{
@@ -269,6 +270,7 @@ nav{
     padding: 30px;
     gap: 30px;
     margin-top: 120px;
+    box-sizing: border-box;
 }
 
 .shipping div{
@@ -343,6 +345,7 @@ nav{
     position: relative; /* Ensure the blur div stays relative to this section */
     height: 500px; /* Full viewport height */
     text-align: center; /* Center text inside the div */
+    box-sizing: border-box;
 }
 
 .lets-work div {
@@ -412,6 +415,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     margin-top: 100px;
+    box-sizing: border-box;
 }
 
 .categories div{
@@ -481,6 +485,8 @@ footer {
     flex-direction: column;
     gap: 30px;
     background-color: #2C3E50;
+    box-sizing: border-box;
+    overflow: hidden;e
   }
   
   .footer-line1 {
